@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #dddddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        tfoot td {
+            font-weight: bold;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Favorite Movies</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Romance</th>
+                <th>Animation</th>
+                <th>Advanture</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Wick</td>
+                <td>Titanic</td>
+                <td>Spirited away</td>
+                <td>Kung Fu Panda</td>
+             
+            </tr>
+            <tr>
+                <td>Jawan</td>
+                <td>Call me by your name</td>
+                <td>Migaration</td>
+                <td>Creation of the Gods</td>
+            
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Rate</td>
+                <td>8</td>
+                <td>9.5</td>
+                <td>10</td>
+              
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
